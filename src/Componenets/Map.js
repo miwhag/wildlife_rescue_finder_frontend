@@ -5,7 +5,7 @@ export default function Map() {
         <div>
             <iframe width="100%" 
             title="Bushfire Map"
-            height="520" 
+            height="750" 
             frameborder="0" 
 
             src="https://miwhag.carto.com/builder/93ca64ce-d870-465c-8f85-cf1bbb280187/embed" 
