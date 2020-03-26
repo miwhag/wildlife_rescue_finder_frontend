@@ -38,17 +38,6 @@
     transition: 0.5s;
 }
 
-.fire{
-    width: 40em;
-}
-
-#firesmall{
-    width: 30em;
-}
-
-#firemedium{
-width: 30em;
-}
 
 #KoalaSection-tree-scale{
 display: flex;
