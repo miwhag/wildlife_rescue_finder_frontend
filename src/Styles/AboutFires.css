@@ -35,17 +35,16 @@
     color: slategray;
 }
 
-.line-break{
-    width: 80em;
-    height: 2px;
-    background-color:whitesmoke;
-    margin: 1em 0em 1em 0em;
-}
-
 #AboutFire-segway{
     font-size: 30px;
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     padding: 2em;
     color: slategray;
+}
+
+
+#AboutFire-header-image{
+    width: 650px;
+    padding: 30px;
 }

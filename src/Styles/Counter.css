@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap');
+
+#Counter-tree-image{
+    width: 30em;
+    margin-top: -4em;
+    margin-left: 2em;
+}
+
+#Counter-number{
+    font-size: 7em;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+#Counter-sub-text{
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+#Counter-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+
+}
+
+#Counter-main-container{
+    display: flex;
+}
