@@ -7,7 +7,7 @@ export default function NavBar() {
         <div className="NavBar-container">
                 <Link className="NavBar-links"to='/'><img className="kangaroo-icon" src="https://i.ibb.co/ypYcXr3/WLR-1.png" alt="kangaroo-icon" /></Link>
             <div className="NavBar-links-container">
-                <Link className="NavBar-links"to='/rescues'>Rescue Locations</Link>
+                <Link className="NavBar-links"to='/rescue_centers'>Rescue</Link>
                 <Link className="NavBar-links"to='/bushfire_map'>Bushfire Map</Link>
                 <Link className="NavBar-links"to='/contact'>Contact</Link>
             </div>

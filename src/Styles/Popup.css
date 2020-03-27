@@ -22,19 +22,18 @@
     margin: auto;
     background: white;
     color: black;
-    border-radius: 2em;
+    border-radius: 1.3em;
     padding: 2.5em;
     width: 50em;
+    text-align: left;
   }
 
   #close-popup-button{
       border-radius: 5px;
-
       align-self: center;
       padding: 0.5em;
       background-color: whitesmoke;
       color: grey;
-     
   }
 
   #close-popup-button:hover{

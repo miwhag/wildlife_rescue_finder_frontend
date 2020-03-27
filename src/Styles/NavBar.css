@@ -14,16 +14,14 @@ padding-right: 2em;
 }
 
 .NavBar-links{
-    color: green;
+    color: dimgray;
     font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .NavBar-links:hover{
     text-decoration: none;
-    font-weight: 600;
-    color: green;
+    color: rgb(214, 185, 52);
 }
 
-/* .NavBar-links:last-child{
-   
-} */
