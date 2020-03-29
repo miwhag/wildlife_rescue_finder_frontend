@@ -27,12 +27,12 @@ It relates some information regarding the devestation that took place from the A
 
 
 ### Technologies 
-* Create React App 
+```* Create React App 
 * Javascript / HTML / CSS
 * Sendgrid Mail
 * Ruby on Rails 
 * Node.js / Express
-
+```
 ### Packages 
 * react-countup
 * react-reveal
