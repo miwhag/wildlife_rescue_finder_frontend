@@ -1,0 +1,28 @@
+#Homes-image{
+    width: 32em;
+    margin: -4em 2em 0em 0em;
+}
+
+#Homes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#Homes-text{
+    color: #e6b216;
+    text-align: end;
+    text-transform: uppercase;
+    padding-right: 3em;
+}
+
+#Homes-text-h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+}
+
+#Homes-text-h3{
+font-size: 30px;
+}
+

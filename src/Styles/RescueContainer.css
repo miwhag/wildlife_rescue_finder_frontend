@@ -1,0 +1,18 @@
+#RescueContainer-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 2em;
+}
+
+#RescueContainer-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+
+#Rescue-icon{
+    width: 25em;
+    align-self: center;
+}

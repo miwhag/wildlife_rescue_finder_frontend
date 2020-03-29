@@ -1,0 +1,11 @@
+.line-break{
+    width: 80em;
+    height: 2px;
+    background-color:whitesmoke;
+    margin: 2em;
+}
+
+#Linebreak-container{
+    display: flex;
+    justify-content: center;
+}

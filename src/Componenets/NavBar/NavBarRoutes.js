@@ -5,7 +5,7 @@ import NavBar from './NavBar'
 import HomePage from '../Pages/HomePage'
 import AboutPage from '../Pages/AboutPage'
 import MapPage from '../Pages/MapPage'
-import LocationsPage from '../Pages/LocationsPage'
+import RescuePage from '../Pages/RescuePage'
 
 
 export default function NavBarRoutes(){
@@ -17,7 +17,7 @@ export default function NavBarRoutes(){
         <Route exact path='/' component={HomePage}/>
         <Route exact path='/about' component={AboutPage}/>
         <Route exact path='/contact' component={ContactPage}/>
-        <Route exact path='/rescues' component={LocationsPage}/>
+        <Route exact path='/rescue_centers' component={RescuePage}/>
         <Route exact path='/bushfire_map' component={MapPage}/>
 
       </Switch>

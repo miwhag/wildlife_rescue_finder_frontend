@@ -1,0 +1,86 @@
+*{
+box-sizing: border-box;
+}
+
+#ContactMe-form-container{
+    display: flex;
+}
+
+
+#ContactPage-kangaroo-img{
+    width: 30em;
+}
+
+#ContactPage-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(164,158,140);
+    background: linear-gradient(45deg, rgba(164,158,140,1) 30%, rgba(112,108,97,0.9304096638655462) 30%);
+    width: 100%;
+}
+
+#contact-image{
+    width: 12em;
+    align-self: flex-end;
+}
+
+.ContactMe-form{
+    display: flex;
+    flex-direction: column;
+    width: 35em;
+    height: 33em;
+    padding: 3em;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button{
+    margin: 2em 0.7em 0.7em 0.7em;
+    border-radius: 5px;
+    width: 7em;
+    align-self: center;
+}
+
+button:hover{
+    background-color: #ffcb2d;
+    color: white;
+    border: none;
+}
+
+
+input{
+    margin: 0.7em 1.2em 0.7em 1.2em;
+    font-size: 1em;
+    color: black;
+    height: 2.5em;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid grey;
+}
+
+
+textarea{
+    margin: 0.9em 1em 0.5em 1em;
+    height: 7em;
+    resize: vertical;
+    border-radius: 0.3em;
+    border: 0.9px solid grey;
+}
+
+textarea:focus{
+    outline: none;
+} 
+
+#ContactMe-form-success-message{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(81, 187, 81);
+}
+
+#ContactMe-form-failure-message{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(224, 26, 26)
+}
