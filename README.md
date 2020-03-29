@@ -18,10 +18,15 @@ It relates some information regarding the devestation that took place from the A
         
 * Once you have both backend servers running, you can go into the frontend repo you cloned down, and in another terminal tab type `npm install` and then `npm start`. This will prompt the application to start. 
 
+
 * From there you can navigate through the website seen in the video above 
+
    * Koala icon will bring you to the homepage 
+   
    * Bushfire Map will show you all of the fires reported in Australia from 2019-08-01 to 2020-01-11. They are about two months behind on data, but more information on the dataset can be viewed here: https://www.kaggle.com/carlosparadis/fires-from-space-australia-and-new-zeland. 
+   
    * Rescues will give a list of rescue and conservations in the area supporting the efforts to rehabilitate the animals that were effected. Click on a image and you can see more about that specific rescue.  
+   
    * Finally the Contact page will allow you to send an email. This functionality was created with the Sendgrid Mail API and executed with an Express backend. 
 
 
