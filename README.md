@@ -22,8 +22,7 @@ It relates some information regarding the devestation that took place from the A
    * Koala icon will bring you to the homepage 
    * Bushfire Map will show you all of the fires reported in Australia from 2019-08-01 to 2020-01-11. They are about two months behind on data, but more information on the dataset can be viewed here: https://www.kaggle.com/carlosparadis/fires-from-space-australia-and-new-zeland. 
    * Rescues will give a list of rescue and conservations in the area supporting the efforts to rehabilitate the animals that were effected. Click on a image and you can see more about that specific rescue.  
-   
-* Finally the Contact page will allow you to send an email. This functionality was created with the Sendgrid Mail API and executed with an Express backend. 
+   * Finally the Contact page will allow you to send an email. This functionality was created with the Sendgrid Mail API and executed with an Express backend. 
 
 
 ### Technologies 
