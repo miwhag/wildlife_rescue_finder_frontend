@@ -1,12 +1,11 @@
 import React from 'react'
 import Map from '../Map'
-import Bushfire from '../../Images/bushfire.png'
 import '../../Styles/Map.css'
 
 export default function MapPage() {
     return (
     <div id="MapPage-container">
-        <img id="Map-logo-image" src={Bushfire} alt="bushfire" />
+        <img id="Map-logo-image" src="https://i.ibb.co/ZKcXKGY/bushfire.png" alt="bushfire" />
         <Map />
     </div>
   

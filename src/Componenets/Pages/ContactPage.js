@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Axios from 'axios'; 
 import KangarooImg from'../../Images/kangaroo.jpg'
 import '../../Styles/ContactPage.css'
-import ContactImage from '../../Images/contact.png'
 
 export default class ContactPage extends Component{
 
@@ -30,7 +29,7 @@ export default class ContactPage extends Component{
             disabled: true
         });
 
-        Axios.post('http://localhost:3002/emails', this.state)
+        Axios.post('http://localhost:3030/emails', this.state)
             .then(res => {
                 if(res.data.success) {
                     this.setState({
@@ -67,7 +66,7 @@ export default class ContactPage extends Component{
                 <img id="ContactPage-kangaroo-img" src={KangarooImg} alt="kangaroo"/>
                 <div id="ContactPage-form-container">
                     <form onSubmit={this.handleSubmit} className="ContactMe-form" >
-                    <img id="contact-image"src={ContactImage} alt="contact-img"/>
+                    <img id="contact-image"src="https://i.ibb.co/hWrzkrM/contact.png"alt="contact-img"/>
                         <input
                         required
                         name="name"

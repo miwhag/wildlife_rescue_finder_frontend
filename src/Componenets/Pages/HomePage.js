@@ -5,6 +5,8 @@ import KoalaSection from '../KoalaSection'
 import Counter from '../Counter'
 import Linebreak from '../LineBreak'
 import Homes from '../Homes'
+import Animals from '../Animals'
+import Footer from '../Footer'
 
 
 export default function HomePage() {
@@ -15,9 +17,14 @@ export default function HomePage() {
             <Linebreak />
             <KoalaSection />
             <Linebreak/>
-            <Homes/>
+            <Animals />
             <Linebreak/>
             <Counter />
+            <Linebreak/>
+            <Homes/>
+            <Linebreak/>
+            <Footer />
+    
         </div>
     )
 }

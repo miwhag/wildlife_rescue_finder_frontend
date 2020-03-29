@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import RescueCard from './RescueCard'
 import '../Styles/RescueContainer.css'
-import Rescue from '../Images/rescue.png'
+
 
 export default class RescueContainer extends Component {
 
@@ -10,7 +10,7 @@ export default class RescueContainer extends Component {
     render() {
         return (
             <div id="RescueContainer-container">
-               <img id="Rescue-icon" src={Rescue} alt="rescue" />
+               <img id="Rescue-icon" src="https://i.ibb.co/w7G3ftw/rescue.png" alt="rescue" />
             <div id="RescueContainer-card-container">
                 {this.displayRescues()}
             </div>

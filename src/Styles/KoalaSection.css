@@ -5,8 +5,9 @@
 }
 
 #KoalaSection-image-container{
-   margin: -4em 0em -2em 0em;
-     padding: 1em 2em 0em 2em;
+   margin: -5em 0em -7em 0em;
+    padding: 1em 2em 0em 2em;
+    z-index: 1;
 }
 
 
@@ -26,5 +27,6 @@
 }
 
 #KoalaSection-image{
-    width: 30em;
+    width: 27em;
+    margin-left: 5em;
 }

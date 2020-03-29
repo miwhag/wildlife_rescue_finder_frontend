@@ -1,0 +1,30 @@
+#Animals-image{
+    width: 60em;
+    margin: -7em 2em 0em 0em;
+}
+
+#Animals-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#Animals-text{
+    color: #e6b216;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#Animals-text-h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    padding: 10px 30px 10px 30px;
+}
+
+#Animals-text-h3{
+font-size: 30px;
+}
+
