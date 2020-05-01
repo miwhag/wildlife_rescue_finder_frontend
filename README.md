@@ -36,6 +36,8 @@ It relates some information regarding the devestation that took place from the A
 * Sendgrid Mail
 * Ruby on Rails 
 * Node.js / Express
+* Carto 
+* Kaggle Dataset 
 
 ### Packages 
 ```
