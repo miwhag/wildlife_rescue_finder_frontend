@@ -1,6 +1,6 @@
-# Module 4 - Rescue Finder - Frontend
+Rescue Finder - Frontend
 
-This mod 4 fullstack app created with Create React App as the frontend and Node.js/Express & Ruby in the backend. 
+This web app's frontend was created with React and two seperate backends in Node.js/Express & Ruby on Rails.
 
 It relates some information regarding the devestation that took place from the Australian Bush Fires and directs you to conservations and rescues doing good. Also includes some data visualization made possible with Carto and a dataset found and imported from Kaggle. Finally there is contact form that allows you to get in touch if desired. 
 
